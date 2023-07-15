@@ -42,10 +42,10 @@ import readline from "readline";
         } else {
           console.log(res.text);
           console.log(res.sourceDocuments);
-          console.log("");
-          rl.close();
-          showCliPrompt();
         }
+        console.log("");
+        rl.close();
+        showCliPrompt();
       }
     );
   };
