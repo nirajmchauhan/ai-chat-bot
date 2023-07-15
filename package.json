@@ -1,0 +1,21 @@
+{
+  "name": "ai-chat-bot",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "chat": "npx ts-node chat.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "langchain": "^0.0.97"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.3.2",
+    "typescript": "^5.1.3"
+  }
+}
